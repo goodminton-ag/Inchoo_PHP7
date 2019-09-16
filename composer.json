@@ -19,6 +19,11 @@
     "suggest": {
         "phpseclib/mcrypt_compat": "PHP 7.1 polyfill for the mcrypt extension from PHP <= 7.0."
     },
+    "extra": {
+        "magento-root-dir": "htdocs",
+        "magento-deploystrategy": "copy",
+        "magento-force": "override"
+    },
     "repositories": [
         {
             "type": "composer",
